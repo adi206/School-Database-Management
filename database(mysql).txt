@@ -1,0 +1,24 @@
+create table student(
+    name varchar(20),
+    class varchar(20),
+    roll varchar(20),
+    adress varchar(20),
+    phone varchar(12)
+);create table teacher(
+    name varchar(20),
+    post varchar(20),
+    salary varchar(20),
+    adress varchar(20),
+    phone varchar(12)
+);create table fees(
+    name varchar(20),
+    class varchar(20),
+    roll varchar(20),
+    month varchar(20),
+    fees varchar(20),
+    date varchar(10)
+);create table salary(
+    name varchar(20),
+    month varchar(20),
+    paid varchar(20)
+);
